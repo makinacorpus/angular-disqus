@@ -14,7 +14,7 @@ describe('Angular-disqus', function() {
   });
 
   describe ('$disqusProvider', function() {
-    it ('should contain the shortname function', function() {
+    it ('should contain the setShortname function', function() {
       expect($disqusProvider.setShortname).toEqual(jasmine.any(Function));
     });
 
