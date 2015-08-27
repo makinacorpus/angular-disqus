@@ -2,13 +2,13 @@
   "name": "angular-disqus",
   "version": "1.1.0",
   "description": "Disqus directive for angular.js",
-  "homepage": "http://github.com/kirstein/angular-disqus",
+  "homepage": "http://github.com/makinacorpus/angular-disqus",
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kirstein/angular-disqus.git"
+    "url": "https://github.com/makinacorpus/angular-disqus.git"
   },
   "author": "Mikk Kirstein",
   "license": "MIT",
