@@ -33,7 +33,16 @@
      * @return {String} disqus embed src with embedded shortname
      */
     function getScriptSrc(shortname, file) {
-      return '//' + shortname + '.disqus.com/' + file;
+      var url = '//' + shortname + '.disqus.com/' + file;
+
+      if (window) {
+        var protocol = window.location.href.split('/')[0];
+        if (protocol === 'file:') {
+          url = 'http:' + url;
+        }
+      }
+
+      return url;
     }
 
     /**
