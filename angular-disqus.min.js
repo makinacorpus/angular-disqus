@@ -1,6 +1,6 @@
 /* 
- * angular-disqus 1.1.0
- * http://github.com/kirstein/angular-disqus
+ * angular-disqus 1.1.1
+ * http://github.com/makinacorpus/angular-disqus
  * 
  * Licensed under the MIT license
  */
